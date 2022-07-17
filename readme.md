@@ -13,7 +13,7 @@ with this above instruction keep in mind . I have create and deployed this proje
 
 install live host on heroku
 ```
- https://video-player-example.herokuapp.com/index.html
+ https://traveling-website-static.herokuapp.com/index.html
 ```
 
 ## Description
@@ -29,7 +29,7 @@ open git cli , paste this command
 
 install live host on heroku
 ```
- https://video-player-example.herokuapp.com/index.html
+ https://traveling-website-static.herokuapp.com/index.html
 ```
 
 open live server in vs code for viewing
@@ -51,7 +51,7 @@ open live server in vs code for viewing
 - below link is the live example host at heroku
 
 ```
- https://video-player-example.herokuapp.com/index.html
+ https://traveling-website-static.herokuapp.com/index.html
 ```
 ## Help
 
