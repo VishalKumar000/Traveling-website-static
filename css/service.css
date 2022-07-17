@@ -1,0 +1,227 @@
+.welcome-banner {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    background: url(../image/theme-img03.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.welcome-banner .welcome-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.welcome-banner .welcome-wrapper .welcome-content {
+    width: 500px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.welcome-banner .welcome-wrapper .welcome-content h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+
+}
+
+.welcome-banner .welcome-wrapper .welcome-content p {
+    font-size: 14px;
+    margin-bottom: 0.75rem;
+}
+
+/* CSS */
+.welcome-banner .welcome-wrapper .welcome-content button.welcome-btn {
+    font-size: 14px;
+    font-weight: 200;
+    width: 150px;
+    letter-spacing: 1px;
+    padding: 13px 5px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    z-index: 1;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.welcome-banner .welcome-wrapper .welcome-content button.welcome-btn:after {
+    content: "Read More";
+    line-height: 45px;
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.welcome-banner .welcome-wrapper .welcome-content button.welcome-btn:hover:after {
+    top: 0px;
+    left: 0px;
+}
+
+.center-container .container .card {
+    display: flex;
+    width: 900px;
+    margin: 1.5rem 0;
+    box-shadow: none;
+    border: 1px solid gainsboro;
+    display: flex;
+}
+
+.center-container .container .card:hover {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.center-container .content-header {
+    top: -6%;
+}
+
+.container .card .circle {
+    position: absolute;
+    left: -50%;
+    top: 0%;
+    flex: 1;
+}
+
+.container .card .circle ion-icon {
+    padding: 30px 0 30px 124px;
+}
+
+.container .card .content {
+    position: absolute;
+    top: 30%;
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    flex: 1;
+}
+
+.container .card .content h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.container .card .content p {
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1038px) {
+    .center-container {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 980px) {
+
+    .welcome-banner .welcome-wrapper .welcome-content h2 {
+        font-size: 25px;
+    }
+
+    .center-container .container .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ffd903;
+    }
+
+    .center-container .container .card:hover {
+        transform: scale(1.02);
+    }
+
+    .center-container .container .card:nth-child(2) {
+        border: 1px solid #bb02ff;
+    }
+
+    .center-container .container .card:nth-child(3) {
+        border: 1px solid #da1168;
+    }
+
+    .container .card .circle {
+        display: none;
+    }
+
+    .container .card .content {
+        margin: 1.75rem 0;
+    }
+
+}
+
+@media (max-width: 728px) {
+    .container .card {
+        padding: 20px;
+    }
+
+    .container .card .content {
+        margin-top: 1rem;
+        width: 95%;
+    }
+}
+
+@media (max-width: 557px) {
+    .container .card {
+        height: 450px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container .card {
+        height: 500px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container .card {
+        height: 565px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container .card {
+        height: 600px;
+    }
+}
+
+@media (max-width: 383px) {
+    .container .card {
+        height: 500px;
+    }
+    .container .card .content h2{
+        font-size: 20px;
+    }
+    .container .card .content p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-banner .welcome-wrapper {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .welcome-banner .welcome-wrapper .welcome-content button.welcome-btn {
+        width: 100px;
+        padding: 13px 5px 13px;
+    }
+
+    .welcome-banner .welcome-wrapper .welcome-content h2 {
+        font-size: 18px;
+    }
+}

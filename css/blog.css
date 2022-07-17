@@ -1,0 +1,180 @@
+.welcome-banner {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    background: url(../image/theme-img04.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.welcome-banner .welcome-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.welcome-banner .welcome-wrapper .welcome-content {
+    width: 500px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.welcome-banner .welcome-wrapper .welcome-content h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+
+}
+
+.welcome-banner .welcome-wrapper .welcome-content p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0.75rem;
+}
+
+/* CSS */
+.welcome-banner .welcome-wrapper .welcome-content button.welcome-btn {
+    font-size: 14px;
+    font-weight: 200;
+    width: 150px;
+    letter-spacing: 1px;
+    padding: 13px 5px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    z-index: 1;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.welcome-banner .welcome-wrapper .welcome-content button.welcome-btn:after {
+    content: "Read More";
+    line-height: 45px;
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.welcome-banner .welcome-wrapper .welcome-content button.welcome-btn:hover:after {
+    top: 0px;
+    left: 0px;
+}
+
+.container.destination .content {
+    width: 97%;
+    height: 22vh;
+    border-radius: 15px;
+}
+
+.container.destination .content .blog-content {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container.destination .content .blog-content h3 {
+    text-align: center;
+
+    color: #24272c;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.container.destination .content .blog-content p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.container.destination .content .blog-content .blog1-btn {
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    outline: none;
+    padding: .45rem;
+    text-decoration: none;
+    transition: all 0.1 ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.container.destination .content .blog-content .blog1-btn:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    background: #41403e;
+    color: #fff;
+}
+
+.container.destination .content .blog-content .blog1-btn:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.center-container .content-header {
+    top: -10%;
+}
+
+@media (max-width: 980px) {
+    .welcome-banner .welcome-wrapper .welcome-content h2 {
+        font-size: 25px;
+    }
+
+    .center-container .content-header {
+        top: -5%;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .center-container .content-header {
+        top: -3%;
+    }
+}
+@media (max-width: 480px) {
+    .welcome-banner .welcome-wrapper {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .welcome-banner .welcome-wrapper .welcome-content button.welcome-btn {
+        width: 100px;
+        padding: 13px 5px 13px;
+    }
+
+    .welcome-banner .welcome-wrapper .welcome-content h2 {
+        font-size: 18px;
+    }
+}
